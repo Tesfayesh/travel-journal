@@ -3,8 +3,7 @@ import Header from "./Header";
 import Travel from "./Travel";
 import data from './data'
 
-function App() {
- 
+function App() { 
   const travels = data.map((item,index) =>{
     return(
       <Travel 
